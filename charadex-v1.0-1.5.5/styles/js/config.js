@@ -30,9 +30,9 @@ charadex.sheet = {
 
   pages: {
     masterlist:    "마스터리스트",
-    masterlistLog: "마스터리스트 로그",
-    inventory:     "가방",
-    inventoryLog:  "가방 로그",
+    masterlistLog: "마스터리스트 수정 내역",
+    inventory:     "인벤토리",
+    inventoryLog:  "인벤토리 수정 내역",
     items:         "아이템",
     traits:        "특성",
     prompts:       "프롬프트",
