@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Artropovil",
-  url: "https://m4ch1n4097.github.io/Lanuca/",
+  url: "https://m4ch1n4097.github.io/Artropovil/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
