@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         )
 
         // Designs
-        if (charadex.tools.checkArray(profile.masterlist)) {
+        if (charadex.tools.checkArray(profile['마스터리스트'])) {
           let designs = await charadex.initialize.page(
             profile['마스터리스트'],
             charadex.page.inventory.relatedData['마스터리스트'],
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
 
         // Logs
-        if (charadex.tools.checkArray(profile.inventorylog)) {
+        if (charadex.tools.checkArray(profile['인벤토리내역'])) {
           let logs = await charadex.initialize.page(
             profile['인벤토리내역'],
             charadex.page.inventory.relatedData['인벤토리내역'],
