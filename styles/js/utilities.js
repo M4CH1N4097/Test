@@ -122,7 +122,7 @@ charadex.tools = {
   addMultiselect (selectElement) {
     try {
       selectElement.selectpicker({
-        noneSelectedText : `All`,
+        noneSelectedText : `전체`,
         style: '',
         styleBase: 'form-control'
       });
@@ -189,7 +189,7 @@ charadex.url = {
 
     let newObject = {};
     params.forEach((value, key) => {
-      let newValue = !value ? '' : String(value).split(',').filter(function (i) { return i !== 'all' })
+      let newValue = !value ? '' : String(value).split(',').filter(function (i) { return i !== '전체' })
       if (charadex.tools.checkArray(newValue)) {
         if (charadex.tools.checkArray(keys)) {
           if (keys.includes(key)) newObject[key] = newValue;
