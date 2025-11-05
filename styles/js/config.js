@@ -29,15 +29,15 @@ charadex.sheet = {
   id: "1brnCrf6CD4IkqvhdTX_0WVhSCpMvK1AYN0Udl3tbwls",
 
   pages: {
-    masterlist:    "마스터리스트",
-    masterlistLog: "마스터리스트 내역",
-    inventory:     "유저 인벤토리",
-    inventoryLog:  "인벤토리 내역",
-    items:         "아이템",
-    traits:        "특성",
-    prompts:       "프롬프트",
-    faq:           "FAQ",
-    staff:         "관리자",
+    masterlist:    "masterlist",
+    masterlistLog: "masterlist log",
+    inventory:     "inventory",
+    inventoryLog:  "inventory log",
+    items:         "items",
+    traits:        "traits",
+    prompts:       "prompts",
+    faq:           "faq",
+    staff:         "mods",
   },
 
   options: {
